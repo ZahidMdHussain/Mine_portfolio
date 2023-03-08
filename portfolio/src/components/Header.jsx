@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center bg-black text-white w-full h-20 px-6 pt-3 fixed">
       <div className="">
-        <h1 className="text-5xl font-sign">Zahid</h1>
+        <h1 className="text-4xl font-medium md:text-5xl font-sign">Zahid</h1>
       </div>
       <div className="">
         <ul className="hidden md:flex md:items-center text-gray-400">
