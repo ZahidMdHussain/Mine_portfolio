@@ -11,10 +11,10 @@ function App() {
     <div>
       <Provider store={store}>
         <Header />
-        <MenuToggled />
         <Body />
         <About />
         <SocialLinks />
+        <MenuToggled />
       </Provider>
     </div>
   );

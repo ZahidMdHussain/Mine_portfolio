@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800 pt-20"
+      className="h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800 pt-[20%] md:pt-0"
     >
       <div className="flex max-w-screen-lg mx-auto flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full text-white">

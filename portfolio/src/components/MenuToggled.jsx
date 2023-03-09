@@ -5,7 +5,8 @@ import { navigation } from "../utils/confiq";
 const MenuToggled = () => {
   const isMenuToggled = useSelector((store) => store.toggle.toggleMenuSlice);
   return !isMenuToggled ? null : (
-    <div className="w-full h-screen flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 text-gray-400 md:hidden">
+    // <div className="w-full h-screen fixed left-0 top-20">
+    <div className="w-full h-screen fixed left-0 top-20 flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 text-gray-400  md:hidden">
       <ul>
         {navigation.map(({ id, name }) => {
           return (
@@ -19,6 +20,7 @@ const MenuToggled = () => {
         })}
       </ul>
     </div>
+    // </div>
   );
 };
 
