@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800 pt-[20%] md:pt-0"
+      className="h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800 pt-24 pb-8 md:pt-0 md:pb-0"
     >
       <div className="flex max-w-screen-lg mx-auto flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full text-white">
@@ -25,7 +25,7 @@ const Body = () => {
             </span>
           </div>
         </div>
-        <div>
+        <div className="my-2">
           <img
             className="w-[250px]  md:w-[450px] rounded-lg"
             src={profile}
