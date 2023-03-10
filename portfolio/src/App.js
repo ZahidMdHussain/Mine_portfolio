@@ -6,6 +6,7 @@ import Body from "./components/Body";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Body />
         <About />
         <Portfolio />
+        <Skills />
         <SocialLinks />
         <MenuToggled />
       </Provider>

@@ -19,7 +19,7 @@ const Portfolio = () => {
             return (
               <div
                 key={item.id}
-                className="shadow-md shadow-gray-700 rounded-lg hover:shadow-lg hover:shadow-gray-600 duration-300"
+                className="shadow-md shadow-gray-700 rounded-lg hover:shadow-lg hover:shadow-gray-600 hover:scale-105 duration-300"
               >
                 <img
                   className="rounded-md grayscale-[20%] hover:grayscale-0 duration-200"
