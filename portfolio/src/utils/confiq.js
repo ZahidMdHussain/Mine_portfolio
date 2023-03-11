@@ -4,6 +4,14 @@ import projectImg3 from "../assets/img/portfolio/img3.jpg";
 import projectImg4 from "../assets/img/portfolio/img4.jpg";
 import projectImg5 from "../assets/img/portfolio/img5.jpg";
 import projectImg6 from "../assets/img/portfolio/img6.jpg";
+import html from "../assets/img/html.png";
+import css from "../assets/img/css.png";
+import javascript from "../assets/img/javascript.png";
+import react from "../assets/img/react.png";
+import tailwind from "../assets/img/tailwind.png";
+import bootstrap from "../assets/img/bootstrap.png";
+import node from "../assets/img/node.png";
+import github from "../assets/img/github.png";
 
 export const navigation = [
   {
@@ -64,5 +72,56 @@ export const portfolioData = [
     imgURL: projectImg6,
     live: "https://www.google.com",
     code: "https://www.github.com",
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    imgURL: html,
+    text: "HTML",
+    color: "",
+  },
+  {
+    id: 2,
+    imgURL: css,
+    text: "CSS",
+    color: "",
+  },
+  {
+    id: 3,
+    imgURL: javascript,
+    text: "JAVASCRIPT",
+    color: "",
+  },
+  {
+    id: 4,
+    imgURL: react,
+    text: "REACT JS",
+    color: "",
+  },
+  {
+    id: 5,
+    imgURL: tailwind,
+    text: "TAILWIND CSS",
+    color: "",
+  },
+  {
+    id: 6,
+    imgURL: bootstrap,
+    text: "BOOTSTRAP",
+    color: "",
+  },
+  {
+    id: 7,
+    imgURL: node,
+    text: "NODE",
+    color: "",
+  },
+  {
+    id: 8,
+    imgURL: github,
+    text: "GIT",
+    color: "",
   },
 ];
