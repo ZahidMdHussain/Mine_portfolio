@@ -15,18 +15,21 @@ const Skills = () => {
           <p className="py-6">These are the technologies I've worked with.</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-8 md:px-0">
-          <div className="flex justify-start items-center shadow-md hover:shadow-gray-500 duration-500 ease-in-out rounded-lg p-2 hover:cursor-pointer group">
-            <div className="">
-              <img
-                className="w-20"
-                src={skills[2].imgURL}
-                alt={skills[2].text}
-              />
-            </div>
-            <div className="text-2xl font-bold text-center w-0 overflow-hidden group-hover:w-[70%] group-hover-h-full duration-500 ease-in-out whitespace-nowrap ">
-              <p>{skills[2].text}</p>
-            </div>
-          </div>
+          {skills.map((skill) => {
+            return (
+              <div
+                key={skill.id}
+                className={`flex justify-start items-center shadow-lg ${skill.color} md:shadow-md ${skill.style} duration-500 ease-in-out rounded-lg p-2 hover:cursor-pointer group`}
+              >
+                <div className="">
+                  <img className="w-20" src={skill.imgURL} alt={skill.text} />
+                </div>
+                <div className="text-2xl font-bold text-center w-[70%] md:w-0 overflow-hidden group-hover:w-[70%] group-hover-h-full duration-500 ease-in-out whitespace-nowrap ">
+                  <p>{skill.text}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
