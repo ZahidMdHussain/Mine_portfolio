@@ -8,8 +8,8 @@ const Portfolio = () => {
       className="md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 pb-8 md:pt-0 md:pb-0"
     >
       <div className="flex flex-col justify-center mx-auto max-w-screen-lg text-white w-full h-full px-4">
-        <div className="my-8 py-1">
-          <h1 className="text-4xl w-fit font-bold border-b-4 border-gray-600">
+        <div className="my-2 py-1">
+          <h1 className="text-4xl w-fit font-bold border-b-4 border-cyan-500">
             Portfolio
           </h1>
           <p className="py-6">Check out some of my work right here.</p>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                       Demo
                     </a>
                   </button>
-                  <button className="border-2 border-gray-600 p-2 rounded-lg hover:bg-green-300 hover:border-green-300 hover:text-black duration-300">
+                  <button className="border-2 border-gray-600 p-2 rounded-lg hover:bg-cyan-500 hover:border-cyan-400 hover:text-black duration-300">
                     <a
                       className="outline-none"
                       href={item.code}

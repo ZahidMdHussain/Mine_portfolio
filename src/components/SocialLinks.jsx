@@ -1,7 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   return (
@@ -54,11 +53,12 @@ const SocialLinks = () => {
           }
         >
           <a
-            href="/resume.pdf"
+            href="https://codepen.io/zahidinasaltair"
             className="flex justify-between items-center w-full text-white font-semibold"
-            download={true}
+            target="_blank"
+            rel="noreferrer"
           >
-            Resume <BsFillPersonLinesFill size={30} />
+            Codepen <FaCodepen size={30} />
           </a>
         </li>
       </ul>
