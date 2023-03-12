@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../assets/img/profile.png";
 import { BiRightArrowAlt } from "react-icons/bi";
+import { Link } from "react-scroll";
 
 const Body = () => {
   return (
@@ -18,12 +19,19 @@ const Body = () => {
             Currently, I love to work on web application using technologies like
             React, Tailwind, Next JS and GraphQL.
           </p>
-          <div className="group flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 my-2 w-fit rounded-md hover: cursor-pointer">
-            <button className="font-semibold">Portfolio</button>
+          <Link
+            to="contact"
+            smooth
+            duration={500}
+            className="group flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 my-2 w-fit rounded-md hover: cursor-pointer"
+          >
+            <button className="font-semibold focus:outline-none">
+              Hire Me
+            </button>
             <span className="pl-2 group-hover:rotate-90 duration-300">
               <BiRightArrowAlt size={20} />
             </span>
-          </div>
+          </Link>
         </div>
         <div className="my-2">
           <img

@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { navigation } from "../utils/confiq";
 import { togglebtw } from "../utils/toggleSlice";
 import { useSelector } from "react-redux";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -21,10 +22,12 @@ const Header = () => {
           {navigation.map(({ id, name }) => {
             return (
               <li
-                className="px-3 hover:cursor-pointer capitalize font-medium hover:scale-110 duration-200"
+                className="px-3 hover:cursor-pointer capitalize font-medium hover:scale-110 duration-300"
                 key={id}
               >
-                {name}
+                <Link to={name} smooth duration={500}>
+                  {name}
+                </Link>
               </li>
             );
           })}

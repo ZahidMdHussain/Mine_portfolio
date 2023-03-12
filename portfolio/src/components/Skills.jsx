@@ -4,7 +4,7 @@ import { skills } from "../utils/confiq";
 const Skills = () => {
   return (
     <div
-      name="about"
+      name="skills"
       className="md:h-screen w-full bg-gradient-to-b from-gray-800 via-black to-black pt-24 pb-8 md:pt-0 md:pb-0"
     >
       <div className="flex justify-center mx-auto max-w-screen-lg flex-col text-white w-full h-full px-4">

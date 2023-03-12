@@ -16,23 +16,23 @@ import github from "../assets/img/github.png";
 export const navigation = [
   {
     id: "home-01",
-    name: "Home",
+    name: "home",
   },
   {
     id: "about-02",
-    name: "About",
+    name: "about",
   },
   {
     id: "portfolio-01",
     name: "portfolio",
   },
   {
-    id: "experience-01",
-    name: "Experience",
+    id: "skills-01",
+    name: "skills",
   },
   {
     id: "contact-01",
-    name: "Contact",
+    name: "contact",
   },
 ];
 

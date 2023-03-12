@@ -9,7 +9,7 @@ const SocialLinks = () => {
       <ul className="">
         <li
           className={
-            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300  rounded-tr-lg bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer"
+            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300  rounded-tr-lg bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer focus:outline-none"
           }
         >
           <a
@@ -24,7 +24,7 @@ const SocialLinks = () => {
 
         <li
           className={
-            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300   bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer"
+            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300   bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer focus:outline-none"
           }
         >
           <a
@@ -38,7 +38,7 @@ const SocialLinks = () => {
         </li>
         <li
           className={
-            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300   bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer"
+            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300   bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer focus:outline-none"
           }
         >
           <a
@@ -50,7 +50,7 @@ const SocialLinks = () => {
         </li>
         <li
           className={
-            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300  rounded-br-lg bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer"
+            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300  rounded-br-lg bg-gradient-to-r from-black to-gray-900 hover:cursor-pointer focus:outline-none"
           }
         >
           <a

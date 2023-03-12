@@ -1,0 +1,54 @@
+import React from "react";
+
+const Contact = () => {
+  return (
+    <div
+      name="contact"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-24 pb-8 md:pt-0 md:pb-0"
+    >
+      <div className="flex justify-center mx-auto max-w-screen-lg flex-col text-white w-full h-full px-4">
+        <div className="my-8 py-1 w-fit">
+          <h1 className="text-4xl font-bold border-b-4 border-gray-600">
+            Contact
+          </h1>
+          <p className="py-6">Get in touch with me.</p>
+        </div>
+        <div className="flex justify-center items-center">
+          <form
+            action="https://getform.io/f/9b0643fa-8394-484a-b940-f27bb0caf512"
+            method="POST"
+            className="flex flex-col mx-4 w-full md:w-1/2"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name.."
+              className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email.."
+              className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none"
+            />
+            <textarea
+              name="message"
+              rows="10"
+              placeholder="Your Message.."
+              className="p-2 bg-transparent border border-white text-white
+              rounded-md focus:outline-none resize-none"
+            ></textarea>
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 my-8 mx-auto flex items-center rounded-md duration-300 font-semibold hover:text-blue-900 focus:outline-none"
+            >
+              Connect
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
