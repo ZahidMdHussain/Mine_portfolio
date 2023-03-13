@@ -11,7 +11,7 @@ const Body = () => {
       className="md:h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800 pt-24 pb-8 md:pt-0 md:pb-0"
     >
       <div className="flex max-w-screen-lg mx-auto flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full text-white">
+        <div className="flex flex-col justify-center h-full text-white selection:text-white selection:bg-cyan-500">
           <h2 className="text-5xl font-bold md:font-extrabold md:text-7xl">
             I'm a Frontend Developer
           </h2>

@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center bg-black text-white w-full h-20 px-6 pt-3 fixed z-10">
       <div className="">
-        <h1 className="text-4xl font-medium md:text-5xl font-sign text-cyan-500">
+        <h1 className="text-4xl font-medium md:text-5xl font-sign text-cyan-500 selection:text-white selection:bg-cyan-500">
           Zahid
         </h1>
       </div>
@@ -24,7 +24,7 @@ const Header = () => {
           {navigation.map(({ id, name }) => {
             return (
               <li
-                className="px-3 hover:cursor-pointer capitalize font-medium hover:scale-105 duration-300 hover:text-cyan-500"
+                className="mx-2 px-1 hover:cursor-pointer capitalize font-medium hover:scale-105 duration-300 hover:text-cyan-500 selection:text-white selection:bg-cyan-500"
                 key={id}
               >
                 <Link to={name} smooth duration={500}>
@@ -40,7 +40,7 @@ const Header = () => {
             toggleMenuBtv();
           }}
         >
-          {isMenuToggled ? <FaTimes size={30} /> : <FaBars size={30} />}
+          {isMenuToggled ? <FaTimes size={20} /> : <FaBars size={30} />}
         </div>
       </div>
     </div>

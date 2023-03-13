@@ -8,8 +8,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      sign: ["Great Vibes"],
+      sign: ["Engagement"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")({ nocompatible: true })],
 };
