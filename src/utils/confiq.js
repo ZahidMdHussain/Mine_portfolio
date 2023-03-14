@@ -12,27 +12,39 @@ import tailwind from "../assets/img/tailwind.png";
 import bootstrap from "../assets/img/bootstrap.png";
 import node from "../assets/img/node.png";
 import github from "../assets/img/github.png";
+import {
+  FaHome,
+  FaUser,
+  FaPhotoVideo,
+  FaCode,
+  FaHandshake,
+} from "react-icons/fa";
 
 export const navigation = [
   {
     id: "home-01",
     name: "home",
+    logos: <FaHome />,
   },
   {
     id: "about-02",
     name: "about",
+    logos: <FaUser />,
   },
   {
     id: "portfolio-01",
     name: "portfolio",
+    logos: <FaPhotoVideo />,
   },
   {
     id: "skills-01",
     name: "skills",
+    logos: <FaCode />,
   },
   {
     id: "contact-01",
     name: "contact",
+    logos: <FaHandshake />,
   },
 ];
 

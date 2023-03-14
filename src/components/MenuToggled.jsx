@@ -11,26 +11,31 @@ const MenuToggled = () => {
   };
   const isMenuToggled = useSelector((store) => store.toggle.toggleMenuSlice);
   return !isMenuToggled ? null : (
-    <div className="w-full h-screen fixed left-0 top-20 flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 text-gray-400  md:hidden">
-      <ul>
-        {navigation.map(({ id, name }) => {
-          return (
-            <li
-              className="py-2 text-center hover:cursor-pointer capitalize font-semibold text-lg hover:scale-110 duration-200"
-              key={id}
-            >
-              <Link
-                onClick={() => toggleMenuBtv()}
-                to={name}
-                smooth
-                duration={500}
+    <div className="w-full h-screen fixed left-0 top-20 md:hidden">
+      <div className="bg-gradient-to-b from-black to-black">
+        <ul className="grid gap-8 grid-cols-3 p-4">
+          {navigation.map(({ id, name, logos }) => {
+            return (
+              <li
+                className="py-3 text-center hover:cursor-pointer capitalize font-semibold hover:scale-110 duration-200 border border-gray-400 rounded-md"
+                key={id}
               >
-                {name}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+                <Link
+                  onClick={() => toggleMenuBtv()}
+                  to={name}
+                  smooth
+                  duration={500}
+                  className="flex flex-col justify-center items-center text-white"
+                >
+                  <p className="text-lg">{logos}</p>
+                  <p className="text-xs">{name}</p>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+      <div className="w-full h-screen bg-gradient-to-b from-black to-gray-800 opacity-75 "></div>
     </div>
   );
 };
