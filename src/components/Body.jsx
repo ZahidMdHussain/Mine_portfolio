@@ -10,15 +10,18 @@ const Body = () => {
       name="home"
       className="md:h-screen w-full bg-gradient-to-b from from-black via-black to-gray-800 pt-24 pb-8 md:pt-0 md:pb-0"
     >
-      <div className="flex max-w-screen-lg mx-auto flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full text-white selection:text-white selection:bg-cyan-500">
-          <h2 className="text-5xl font-bold md:font-extrabold md:text-7xl">
-            I'm a Frontend Developer
+      <div className="flex max-w-screen-lg flex-col-reverse mx-auto items-center justify-center h-full px-4 md:flex-row">
+        <div className="flex flex-col md:w-2/3 justify-center h-full text-white selection:text-white selection:bg-cyan-50">
+          <h2 className="text-2xl font-bold md:font-extrabold md:text-3xl my-4">
+            Hey,
+          </h2>
+          <h2 className="text-4xl font-bold md:font-extrabold md:text-6xl tracking-wide mb-4">
+            I'm Muhammad <br /> Zahid Hussain
           </h2>
           <p className="py-4 max-w-md text-cyan-500 font-semibold">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            A Frontend focused Web Developer building the Frontend of Websites
+            and Web Applications that leads to the success of the overall
+            product.
           </p>
           <div className="flex items-center gap-8">
             <Link
@@ -49,9 +52,9 @@ const Body = () => {
             </a>
           </div>
         </div>
-        <div className="my-2">
+        <div className="mb-4">
           <img
-            className="w-[250px]  md:w-[450px] rounded-lg"
+            className="w-[200px] h-[220px]  md:w-[300px] md:h-[320px] rounded-lg ring-2 ring-offset-4 md:ring-offset-8 ring-cyan-500  ring-offset-black object-cover"
             src={profile}
             alt="profile pic"
           />

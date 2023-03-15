@@ -8,26 +8,38 @@ const About = () => {
     >
       <div className="flex justify-center mx-auto max-w-screen-lg flex-col text-white w-full h-full px-4 selection:text-white selection:bg-cyan-500">
         <div className="my-2 py-1 w-fit">
-          <h1 className="text-4xl font-bold border-b-4 border-cyan-500">
+          <h1 className="text-4xl w-fit font-bold border-b-4 border-cyan-500">
             About
           </h1>
+          <h3 className="my-2 text-cyan-400">
+            Here you will find more information about me, what I do, and my
+            current skills.
+          </h3>
         </div>
         <p className="md:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in sint
-          itaque inventore rem laborum distinctio natus velit, reiciendis magni
-          accusamus delectus tenetur aliquam voluptas tempore molestias
-          consequatur eveniet placeat. Asperiores veritatis tenetur laborum
-          excepturi, nemo dolorem. Et, blanditiis unde similique iusto nihil
-          voluptate hic velit quis incidunt nulla tempore.
+          I am Md. Zahid Hussain , a 26 years old Frontend Web developer living
+          in Kolkata, India. I am a Computer Science Engineer, currently working
+          in one of the{" "}
+          <em className="bg-cyan-500 text-black font-semibold">MNC's.</em>
+        </p>
+        <br />
+        <p className="md:text-xl ">
+          I ❤️ building the Front-end design and functionality of Websites and
+          Web Applications that leads to the success of the overall product.
+          Check out some of my work in the{" "}
+          <em className="bg-cyan-500 text-black font-semibold">Portfolio</em>{" "}
+          section. I also like sharing content related to the stuff that I have
+          learned over the year in Web Development so it can help other Dev.
+          Feel free to Connect or Follow me on my{" "}
+          <em className="bg-cyan-500 text-black font-semibold">Linkedin</em>{" "}
+          where I post useful content related to Web Development and
+          Programming.
         </p>
         <br />
         <p className="md:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem
-          porro accusantium totam doloremque voluptatem id, aperiam temporibus
-          voluptate facilis incidunt excepturi consequatur vitae, soluta, alias
-          nulla! Voluptatem nam impedit dolore quia repellat tempora. Ipsam
-          similique doloremque minima expedita, est voluptatibus ratione aut
-          iste hic quod, debitis quae dignissimos nam.
+          I'm open to Job opportunities where I can contribute, learn and grow.
+          If you have a good opportunity that matches my skills and experience
+          then don't hesitate to contact me.
         </p>
       </div>
     </div>

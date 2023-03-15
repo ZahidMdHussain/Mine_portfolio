@@ -19,13 +19,17 @@ const Portfolio = () => {
             return (
               <div
                 key={item.id}
-                className="shadow-md shadow-gray-700 rounded-lg hover:shadow-lg hover:shadow-gray-600 hover:scale-105 duration-300"
+                className="shadow-md shadow-gray-700 rounded-lg hover:shadow-lg hover:shadow-gray-600 hover:scale-105 duration-300 relative group"
               >
                 <img
                   className="rounded-md grayscale-[20%] hover:grayscale-0 duration-200"
                   src={item.imgURL}
                   alt="projectImg"
                 />
+                <p className="absolute h-0 top-0 text-center flex px-2 items-center bg-gradient-to-b from-black via-gray-800 to-transparent text-white ease-in-out overflow-hidden group-hover:h-[70%] group-hover:md:h-[75%] duration-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique, aut?
+                </p>
                 <div className="py-2 flex justify-evenly">
                   <button className="border-2 border-gray-600 p-2 rounded-lg hover:bg-slate-100 hover:text-black duration-300">
                     <a

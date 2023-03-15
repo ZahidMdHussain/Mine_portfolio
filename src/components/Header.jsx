@@ -13,7 +13,7 @@ const Header = () => {
   };
   const isMenuToggled = useSelector((store) => store.toggle.toggleMenuSlice);
   return (
-    <div className="flex justify-between items-center bg-black text-white w-full h-20 px-6 pt-3 fixed z-10">
+    <div className="flex justify-between items-center bg-black text-white w-full h-20 px-6 pt-3 fixed z-20">
       <div className="">
         <h1 className="text-4xl font-medium md:text-5xl font-sign text-cyan-500 selection:text-white selection:bg-cyan-500">
           Zahid
