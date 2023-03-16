@@ -12,7 +12,9 @@ const Portfolio = () => {
           <h1 className="text-4xl w-fit font-bold border-b-4 border-cyan-500">
             Portfolio
           </h1>
-          <p className="py-6">Check out some of my work right here.</p>
+          <p className="mt-2 mb-4 text-cyan-400">
+            Here you will find some of the personal projects that I created.
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-8 md:px-0">
           {portfolioData.map((item) => {
@@ -27,8 +29,7 @@ const Portfolio = () => {
                   alt="projectImg"
                 />
                 <p className="absolute h-0 top-0 text-center flex px-2 items-center bg-gradient-to-b from-black via-gray-800 to-transparent text-white ease-in-out overflow-hidden group-hover:h-[70%] group-hover:md:h-[75%] duration-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique, aut?
+                  {item.bio}
                 </p>
                 <div className="py-2 flex justify-evenly">
                   <button className="border-2 border-gray-600 p-2 rounded-lg hover:bg-slate-100 hover:text-black duration-300">

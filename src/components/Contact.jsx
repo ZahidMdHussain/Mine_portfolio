@@ -11,7 +11,10 @@ const Contact = () => {
           <h1 className="text-4xl w-fit font-bold border-b-4 border-cyan-600">
             Contact
           </h1>
-          <p className="py-6">Get in touch with me.</p>
+          <p className="mt-2 mb-4 text-cyan-400">
+            Feel free to Contact me by submitting the form below and I will get
+            back to you as soon as possible.
+          </p>
         </div>
         <div className="flex justify-center items-center">
           <form

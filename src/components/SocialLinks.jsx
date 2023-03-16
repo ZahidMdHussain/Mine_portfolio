@@ -40,7 +40,7 @@ const SocialLinks = () => {
           }
         >
           <a
-            href="mailto:foo@gmail.com"
+            href="mailto:zahimdhussain786@gmail.com"
             className="flex justify-between items-center w-full text-white font-semibold"
           >
             Mail <IoMdMail size={30} />

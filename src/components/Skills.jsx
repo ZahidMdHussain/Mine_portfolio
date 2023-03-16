@@ -12,7 +12,9 @@ const Skills = () => {
           <h1 className="text-4xl font-bold border-b-4 border-cyan-500 w-fit">
             Skills
           </h1>
-          <p className="py-6">These are the technologies I've worked with.</p>
+          <p className="mt-2 mb-4 text-cyan-400">
+            My current skills mostly in terms of programming and technology.
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-8 md:px-0">
           {skills.map((skill) => {

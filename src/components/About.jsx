@@ -12,8 +12,7 @@ const About = () => {
             About
           </h1>
           <h3 className="my-2 text-cyan-400">
-            Here you will find more information about me, what I do, and my
-            current skills.
+            Here you will find more information about me and what I do ?
           </h3>
         </div>
         <p className="md:text-xl">
