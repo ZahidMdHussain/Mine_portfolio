@@ -59,7 +59,7 @@ export const portfolioData = [
   {
     id: 2,
     imgURL: projectImg2,
-    bio: "Video Streaming App, Find your favorite one and stream uninterrupted.",
+    bio: "Video Streaming App, Find your favourite one and stream uninterrupted.",
     live: "https://silver-fox-d4d523.netlify.app",
     code: "https://github.com/ZahidMdHussain/road-to-Reactjs-2023/tree/master/video-streamimg-app",
   },

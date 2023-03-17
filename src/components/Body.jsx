@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/img/profile.png";
+import profile from "../assets/img/profile.jpg";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { Link } from "react-scroll";
@@ -54,7 +54,7 @@ const Body = () => {
         </div>
         <div className="mb-4">
           <img
-            className="w-[200px] h-[220px]  md:w-[300px] md:h-[320px] rounded-lg ring-2 ring-offset-4 md:ring-offset-8 ring-cyan-500  ring-offset-black object-cover"
+            className="w-[200px] h-[220px]  md:w-[300px] md:h-[320px]  ring-2 ring-offset-4 md:ring-offset-8 ring-cyan-500  ring-offset-black object-cover shadow-[1px_1px_15px_10px_rgba(0,188,212,0.7)] rounded-b-full"
             src={profile}
             alt="profile pic"
           />

@@ -17,7 +17,7 @@ const MenuToggled = () => {
           {navigation.map(({ id, name, logos }) => {
             return (
               <li
-                className="py-3 text-center hover:cursor-pointer capitalize font-semibold hover:scale-110 duration-200 border border-gray-400 rounded-md"
+                className="py-3 text-center hover:cursor-pointer capitalize font-semibold hover:scale-110 duration-200 border border-cyan-400 rounded-md"
                 key={id}
               >
                 <Link
@@ -35,7 +35,7 @@ const MenuToggled = () => {
           })}
         </ul>
       </div>
-      <div className="w-full h-screen bg-gradient-to-b from-black to-gray-800 opacity-75 "></div>
+      <div className="w-full h-screen bg-gradient-to-b from-black to-transparent"></div>
     </div>
   );
 };

@@ -27,12 +27,14 @@ const Contact = () => {
               name="name"
               placeholder="Your Name.."
               className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none"
+              required
             />
             <input
               type="email"
               name="email"
               placeholder="Your Email.."
               className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none"
+              required
             />
             <textarea
               name="message"
@@ -40,6 +42,7 @@ const Contact = () => {
               placeholder="Your Message.."
               className="p-2 bg-transparent border border-white text-white
               rounded-md focus:outline-none resize-none"
+              required
             ></textarea>
             <button
               type="submit"
