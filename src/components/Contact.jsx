@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
+
   return (
     <div
       name="contact"
@@ -25,24 +29,27 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              value={name}
               placeholder="Your Name.."
-              className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none"
-              required
+              className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none focus:border-cyan-500"
+              onChange={(e) => setName(e.target.value)}
             />
             <input
               type="email"
               name="email"
+              value={email}
               placeholder="Your Email.."
-              className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none"
-              required
+              className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none focus:border-cyan-500"
+              onChange={(e) => setEmail(e.target.value)}
             />
             <textarea
               name="message"
               rows="10"
+              value={msg}
               placeholder="Your Message.."
               className="p-2 bg-transparent border border-white text-white
-              rounded-md focus:outline-none resize-none"
-              required
+              rounded-md focus:outline-none resize-none focus:border-cyan-500"
+              onChange={(e) => setMsg(e.target.value)}
             ></textarea>
             <button
               type="submit"
