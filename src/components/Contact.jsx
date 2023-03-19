@@ -30,6 +30,9 @@ const Contact = () => {
               type="text"
               name="name"
               value={name}
+              minLength="3"
+              maxLength="30"
+              required
               placeholder="Your Name.."
               className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none focus:border-cyan-500"
               onChange={(e) => setName(e.target.value)}
@@ -39,6 +42,7 @@ const Contact = () => {
               name="email"
               value={email}
               placeholder="Your Email.."
+              required
               className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none focus:border-cyan-500"
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -47,6 +51,8 @@ const Contact = () => {
               rows="10"
               value={msg}
               placeholder="Your Message.."
+              maxLength="300"
+              required
               className="p-2 bg-transparent border border-white text-white
               rounded-md focus:outline-none resize-none focus:border-cyan-500"
               onChange={(e) => setMsg(e.target.value)}
