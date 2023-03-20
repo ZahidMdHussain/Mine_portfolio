@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center items-center">
           <form
-            action="https://getform.io/f/9b0643fa-8394-484a-b940-f27bb0caf512"
+            action="https://getform.io/f/5eff6ade-b80c-4cc0-9417-8ce8e5dc9aae"
             method="POST"
             className="flex flex-col mx-4 w-full md:w-1/2"
           >
@@ -34,7 +34,7 @@ const Contact = () => {
               maxLength="30"
               required
               placeholder="Your Name.."
-              className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none focus:border-cyan-500"
+              className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none  required:border-slate-200 focus:invalid:border-red-400 valid:border-cyan-500"
               onChange={(e) => setName(e.target.value)}
             />
             <input
@@ -43,7 +43,7 @@ const Contact = () => {
               value={email}
               placeholder="Your Email.."
               required
-              className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none focus:border-cyan-500"
+              className="p-2 my-4 bg-transparent border border-white text-white rounded-md focus:outline-none  required:border-slate-200 focus:invalid:border-red-400 valid:border-cyan-500"
               onChange={(e) => setEmail(e.target.value)}
             />
             <textarea
@@ -53,8 +53,7 @@ const Contact = () => {
               placeholder="Your Message.."
               maxLength="300"
               required
-              className="p-2 bg-transparent border border-white text-white
-              rounded-md focus:outline-none resize-none focus:border-cyan-500"
+              className="p-2 bg-transparent border border-white text-white rounded-md focus:outline-none  required:border-slate-200 focus:invalid:border-red-400 valid:border-cyan-500"
               onChange={(e) => setMsg(e.target.value)}
             ></textarea>
             <button
