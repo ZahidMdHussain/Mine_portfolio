@@ -54,7 +54,7 @@ const Body = () => {
         </div>
         <div className="mb-4">
           <img
-            className="w-[200px] h-[220px]  md:w-[300px] md:h-[320px]  ring-2 ring-offset-4 md:ring-offset-8 ring-cyan-500  ring-offset-black object-cover shadow-[1px_1px_15px_10px_rgba(0,188,212,0.7)] rounded-b-full"
+            className="w-[200px] h-[220px]  md:w-[300px] md:h-[320px] object-cover ring-2 ring-offset-4 md:ring-offset-8 ring-cyan-500  ring-offset-black  shadow-[1px_1px_15px_10px_rgba(0,188,212,0.7)] rounded-tl-lg rounded-br-lg rounded-tr-3xl rounded-bl-3xl"
             src={profile}
             alt="profile pic"
           />

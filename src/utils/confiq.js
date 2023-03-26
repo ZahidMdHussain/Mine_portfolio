@@ -53,8 +53,8 @@ export const portfolioData = [
     id: 1,
     imgURL: projectImg1,
     bio: "Food ordering App to your doorstep from thousands of amazing local and national restaurants.",
-    live: "https://late-nightbyt.netlify.app",
-    code: "https://github.com/ZahidMdHussain/road-to-Reactjs-2023/tree/master/Final-Project",
+    live: "https://late-nightbite.netlify.app/",
+    code: "https://github.com/ZahidMdHussain/Food_ordering_app",
   },
   {
     id: 2,
