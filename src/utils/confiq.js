@@ -65,24 +65,24 @@ export const portfolioData = [
   },
   {
     id: 3,
+    imgURL: projectImg5,
+    bio: "Weather Forecast App, A React project to get ontime forcast details for any location in the world.",
+    live: "https://cityforecastweb.netlify.app/",
+    code: "https://github.com/ZahidMdHussain/weather-app",
+  },
+  {
+    id: 4,
     imgURL: projectImg3,
     bio: "Keeper App, A React project to store important note into keeper.",
     live: "https://keepit-keeper.netlify.app/",
     code: "https://github.com/ZahidMdHussain/LearningReact/tree/master/keeper-app",
   },
   {
-    id: 4,
+    id: 5,
     imgURL: projectImg4,
     bio: "Todo's App, A React project to pin point our daily do's.",
     live: "https://list-here.netlify.app/",
     code: "https://github.com/ZahidMdHussain/LearningReact/tree/master/to-dos",
-  },
-  {
-    id: 5,
-    imgURL: projectImg5,
-    bio: "Expense Tracker App, A JavaScript project to keep a tracker on your earning",
-    live: "https://track-yourexpence.netlify.app/",
-    code: "https://github.com/ZahidMdHussain/Javascript-CreatedProjects/tree/master/Expense%20Tracker",
   },
   {
     id: 6,
